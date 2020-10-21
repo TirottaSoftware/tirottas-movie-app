@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.movie {
+  padding: 7px;
+}
+.movie:hover {
+  opacity: 0.7;
+  transition: 0.2s ease-in;
+  transform: scale(1.1);
+}
+.movie-img {
+  height: 35vh;
+}
+.movie h4 {
+  margin: 0;
+}
+/* BANNER */
+.banner {
+  height: 100vh;
+}
+
+.banner h2 {
+  color: white;
+  width: 50%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5vw;
+  margin-top: 5%;
+}
+.banner {
+  margin-bottom: 5%;
+}
+.banner p {
+  font-family: "Varela Round", sans-serif;
+  width: 35%;
+  margin-bottom: 2%;
+  color: white;
+  font-size: 2vw;
+}
+.banner-info {
+  position: absolute;
+  left: 5vw;
+  top: 10vh;
+}
+#btn-trailer {
+  text-decoration: none;
+  margin-top: 1%;
+  margin-right: 1%;
+  padding: 1.2% 2%;
+  font-size: 1.3vw;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+
+  background: rgba(46, 46, 46, 0.6);
+  border-radius: 10px;
+  cursor: pointer;
+}
+#btn-trailer:hover {
+  transition: 0.5s ease;
+  background: rgba(46, 46, 46);
+}
+/* MODAL */
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+#popup-title {
+  color: white;
+  margin-left: 1%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5vw;
+}
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+}
+.popup-description {
+  font-family: "Varela Round", sans-serif;
+  width: 35%;
+  color: white;
+  font-size: 1.4vw;
+  margin: 1%;
+}
+#btn-banner-close {
+  margin: 1%;
+  font-size: 1em;
+  align-self: start;
+  color: white;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+.popup-banner #btn-trailer {
+  margin-left: 1%;
+  padding: 3px 2%;
+}
+
+@media only screen and (max-width: 400px) and (max-height: 900px) {
+  .banner h2 {
+    margin-top: -5vw;
+  }
+  #popup-title {
+    font-size: 2rem;
+  }
+  .popup-description {
+    font-size: 3vw;
+    width: 50%;
+  }
+  .popup-banner #btn-trailer {
+    font-size: 2vh;
+  }
+
+  /* banner */
+  .banner h2 {
+    font-size: 5vh;
+  }
+  .banner p {
+    font-size: 3vw;
+  }
+  .banner #btn-trailer {
+    font-size: 4vw;
+  }
+}

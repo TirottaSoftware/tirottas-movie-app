@@ -11,7 +11,6 @@ const Movie = (props) =>{
     const img_api = 
     "https://image.tmdb.org/t/p/w500/";
     const backdrop_api = "https://image.tmdb.org/t/p/original/";
-
     const [trailerKey, setTrailerKey] = useState("");
     const [showModal, setShowModal] = useState(false);
 

@@ -18,7 +18,7 @@ const Banner = (props) =>{
     }
 
     function fetchTrailer(id){
-        const movieLink = "http://api.themoviedb.org/3/movie/" + id + "?api_key=a8ddc54a46d9633a6500259806fbe193&append_to_response=videos";
+        const movieLink = "https://api.themoviedb.org/3/movie/" + id + "?api_key=a8ddc54a46d9633a6500259806fbe193&append_to_response=videos";
 
         return fetch(movieLink).then(res => res.json()).then((data) => {return data;})
     }

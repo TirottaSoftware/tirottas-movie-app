@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tirottas-movie-app/precache-manifest.e082d327ecd1f8386969f61bc9c1ecc3.js"
+  "/tirottas-movie-app/precache-manifest.ee701f6b5fb09606771b5aca8d9a4255.js"
 );
 
 self.addEventListener('message', (event) => {

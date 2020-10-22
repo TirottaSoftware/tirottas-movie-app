@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tirottas-movie-app/static/css/main.81aadf6b.chunk.css",
+    "main.css": "/tirottas-movie-app/static/css/main.37ac5216.chunk.css",
     "main.js": "/tirottas-movie-app/static/js/main.ebfef5ce.chunk.js",
     "main.js.map": "/tirottas-movie-app/static/js/main.ebfef5ce.chunk.js.map",
     "runtime-main.js": "/tirottas-movie-app/static/js/runtime-main.6ebb08f4.js",
@@ -8,15 +8,15 @@
     "static/js/2.e3ff9f7b.chunk.js": "/tirottas-movie-app/static/js/2.e3ff9f7b.chunk.js",
     "static/js/2.e3ff9f7b.chunk.js.map": "/tirottas-movie-app/static/js/2.e3ff9f7b.chunk.js.map",
     "index.html": "/tirottas-movie-app/index.html",
-    "precache-manifest.e082d327ecd1f8386969f61bc9c1ecc3.js": "/tirottas-movie-app/precache-manifest.e082d327ecd1f8386969f61bc9c1ecc3.js",
+    "precache-manifest.ee701f6b5fb09606771b5aca8d9a4255.js": "/tirottas-movie-app/precache-manifest.ee701f6b5fb09606771b5aca8d9a4255.js",
     "service-worker.js": "/tirottas-movie-app/service-worker.js",
-    "static/css/main.81aadf6b.chunk.css.map": "/tirottas-movie-app/static/css/main.81aadf6b.chunk.css.map",
+    "static/css/main.37ac5216.chunk.css.map": "/tirottas-movie-app/static/css/main.37ac5216.chunk.css.map",
     "static/js/2.e3ff9f7b.chunk.js.LICENSE.txt": "/tirottas-movie-app/static/js/2.e3ff9f7b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6ebb08f4.js",
     "static/js/2.e3ff9f7b.chunk.js",
-    "static/css/main.81aadf6b.chunk.css",
+    "static/css/main.37ac5216.chunk.css",
     "static/js/main.ebfef5ce.chunk.js"
   ]
 }

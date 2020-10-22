@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "910706e4df9c9fe1c284e10ab6030ce0",
+    "revision": "ce9e5d83ee5c91867baf80951f74b14d",
     "url": "/tirottas-movie-app/index.html"
   },
   {
-    "revision": "f89cb698b4f80043f698",
-    "url": "/tirottas-movie-app/static/css/main.81aadf6b.chunk.css"
+    "revision": "af6d51d5d02b2301d35c",
+    "url": "/tirottas-movie-app/static/css/main.37ac5216.chunk.css"
   },
   {
     "revision": "979dd641d3f0be1a8706",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tirottas-movie-app/static/js/2.e3ff9f7b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f89cb698b4f80043f698",
+    "revision": "af6d51d5d02b2301d35c",
     "url": "/tirottas-movie-app/static/js/main.ebfef5ce.chunk.js"
   },
   {
